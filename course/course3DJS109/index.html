@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+
+<head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2774096-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-2774096-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>做動畫‧學物理</title>
+    <base target="_blank">
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/panelCollapse.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    
+    <div class="container">
+      
+      <!-- 大標題 -->
+      <div class="jumbotron">
+        <img class="img-responsive" src="img/title.png" alt="" width="900px"/>
+      </div>
+
+
+      <hr>
+
+      <!-- 不是一個單元，開場白 -->
+      <div class="panel panel-success">
+          <div class="panel-heading">關於本課程</div>
+          <ul class="list-group">
+          	<!--我該選這門課嗎-->
+          	<li class="mySection">
+          		<a href="https://youtu.be/arrFhSnR_po">
+          			課程簡介(to師大附中高一特色課程)
+          		</a>
+          	</li>
+          	<!--半成品下載-->
+          	<li class="mySection">
+          		<a href="files/SemiFinishedProduct.zip">
+          			老師作的半成品下載
+          		</a>
+          	</li>
+          	<!--使用軟體-->
+          	<li class="mySection">
+          		使用軟體：1. <a href="https://www.google.com/intl/zh-TW_ALL/chrome/">Chrome</a>
+          		、2. <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+            </li>
+            <!--捷徑-->
+          	<li class="mySection">
+                捷徑：<br>[
+                <a href="#u01">1</a>,
+                <a href="#u02">2</a>,
+                <a href="#u03">3</a>,
+                <a href="#u04">4</a>,
+                <a href="#u05">5</a>,
+                <a href="#u06">6</a>,
+                <a href="#u07">7</a>,
+                <a href="#u08">8</a>,
+                <a href="#u09">9</a>]<br>
+                [<a href="#teacher">關於老師的半成品</a>]
+                [<a href="#classroom">動畫小教室</a>]
+            </li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+
+      <!-- 一個單元 ch01_認識JavaScript -->
+      <div class="panel panel-primary" id="u01">
+          <div class="panel-heading">單元一 認識JavaScript</div>
+          <ul class="list-group">
+          	<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/rc0GeNQTP1Q">01 變數</a></li>
+		  	<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/moB-Af4JzDg">02 function</a></li>
+		  	<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/32yKkaz3ems">03 if基礎</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/QmGQEJgeWGw">04 if進階實作</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch02_基礎動畫 -->
+      <div class="panel panel-primary" id="u02">
+          <div class="panel-heading">單元二 基礎動畫</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/kl2vDIUxUCI">01連續偶數</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/ZBIgBldoBmM">02for迴圈</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/bo_ZABaHvvQ">03費氏數列</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch03_控制元件的屬性 -->
+      <div class="panel panel-primary" id="u03">
+          <div class="panel-heading">單元三 控制元件的屬性</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/gqhwAtUaf6M">01控制元件的屬性</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/SL0wKVEh28E">02弧度與角度</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/bzVAp1JtYKQ">03滾動</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/_U4nu0-e2a0">04來回運動</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+      
+
+      <!-- 一個單元 ch04_滑鼠互動 -->
+      <div class="panel panel-primary" id="u04">
+          <div class="panel-heading">單元四 滑鼠互動</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/Rz680budstQ">01按鈕改名與監聽</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/Nvecc8uC5KM">02gameMD</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/PHcAKGDuwkA">03SliderAndCheckBox</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+      
+
+      <!-- 一個單元 ch05_密室小球 -->
+      <div class="panel panel-primary" id="u05">
+          <div class="panel-heading">單元五 密室小球</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/isojzM16g8k">[物理教室] 運動方程式的數值解</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/UT1AxnOtkVk">01平拋斜拋</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/rgR60duXIPo">02撞牆反彈</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/IEnvfR_Tpy4">03按鈕控制外力</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/hlq4KWvnckE">04加入箭頭</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch06_氣體動力論 -->
+      <div class="panel panel-primary" id="u06">
+          <div class="panel-heading">單元六 氣體動力論</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/6gpFNDJIyiU">01認識陣列</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/BAzD6HFlCAQ">02小球排方陣</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/tITEHgFbAl8">03撞牆反彈加箭頭</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/dn9PIJ3HT-U">04彼此彈性碰撞</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+      
+
+      <!-- 一個單元 ch07_彈簧振動 -->
+      <div class="panel panel-primary" id="u07A">
+          <div class="panel-heading">單元七 彈簧振動</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/gbiWEn7i87s">01振動動起來</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/svy_tWwQM4I">02加入彈簧</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/DnqydaLwy2g">03互動</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/Hc-3zjKrwYE">04如何畫線</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/rgf1XUoWS28">05位置時間關係圖</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch08_圓周運動 -->
+      <div class="panel panel-primary" id="u08">
+          <div class="panel-heading">單元八 圓周運動</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/oSL_OktGyKM">[數學教室] 三角函數</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/83AQBeSXRBg">[物理教室] 圓周運動</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/sLxSLfWiQjI">01轉起來</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/lHkyXwTMoxY">02加入速度箭頭</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/xlKs-Ze2INE">03互動</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch09_向右橫波 -->
+      <div class="panel panel-primary" id="u09">
+          <div class="panel-heading">單元九 向右橫波</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/y3WCG9a4_2I">[物理教室] 波動方程式</a></li>
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/KG0lzuqfP44">01向右橫波</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/KLlxc4svUgg">02向左橫波</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/P08D2fl3ZeU">03駐波三合一</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch10_連續背景 -->
+      <div class="panel panel-primary" id="u10">
+          <div class="panel-heading">單元十 連續背景</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/BfTPtPh72FI">01連續背景原理說明</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/4xdNFn3w7cY">02製作連續背景</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/AyDwhFzvtfs">03按鈕施力與終端速度</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/XamUaVzfw9E">04加入箭頭觀察終端速度</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/I1j2LvVgrfE">[物理教室] 自由落體的終端速度</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch11_直線碰撞 -->
+      <div class="panel panel-primary" id="u11">
+          <div class="panel-heading">單元十一 直線碰撞</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/JARxFI4PZIo">01直線碰撞撞起來</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/CXHnK8QXKbI">02調整質量</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/3naNPsxx0g4">03恢復係數</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/8StfaSOI0G0">04畫兩球vt圖</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch12_萬有引力 -->
+      <div class="panel panel-primary" id="u12">
+          <div class="panel-heading">單元十二 萬有引力</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/wdS1IMy0_Rg">01萬有引力動起來</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/bNGqYKlW2P8">02克卜勒等面積定律</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/rJKBb08NEPk">03改成多行星</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/iGgI8NZexfg">04一次計算多次提高精確度</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+      <!-- 一個單元 ch13_阿法粒子散射 -->
+      <div class="panel panel-primary" id="u13">
+          <div class="panel-heading">單元十三 阿法粒子散射</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/FDmJmRs_U4Y">01阿法粒子散射</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch14_盪鞦韆 -->
+      <div class="panel panel-primary" id="u14">
+          <div class="panel-heading">單元十四 盪鞦韆</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/GBO5UvJo9Tk">01用ThreeJSEditor建模</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/0EnK0mpzHrA">02載入建模</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/Mm6MKxiauP8">03盪鞦韆盪起來</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/uBwQFlhCgBw">04蹲下</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+
+      <!-- 一個單元 ch15_耦合振盪 -->
+      <div class="panel panel-primary" id="u15">
+          <div class="panel-heading">單元十五 耦合振盪</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/Pa_3RDt8NVg">01耦合振盪振起來</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/jn3R_S9-W4o">02畫出xt圖</a></li>        
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>      
+
+      <!-- 一個單元 ch16_躲避子彈 -->
+      <div class="panel panel-primary" id="u16">
+          <div class="panel-heading">單元十六 躲避子彈</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/QFXK1wHUBxw">[數學教室] 反函數</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/LpmXlD9AZZI">01建造砲塔</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/ZPe0edckMfo">02砲塔跟隨主角</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/6RLLQgf29MQ">03發射子彈</a></li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+
+      <!-- 一個單元 ch17_波的干涉 -->
+      <div class="panel panel-primary" id="u17">
+        <div class="panel-heading">單元十七 波的干涉</div>
+        <ul class="list-group">
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/7p-kAYosmKk">a01準備波源與干涉點</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/nIEK6SyPjFk">a02兩波干涉</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/tHoYzh7mlS0">a03節線與腹線</a></li>
+        <li class="panel-footer mySection"></li>
+        </ul>
+      </div>
+
+      <!-- 一個單元 ch18_彈性弦上的波動(1D) -->
+      <div class="panel panel-primary" id="u18">
+        <div class="panel-heading">單元十八 彈性弦上的波動</div>
+        <ul class="list-group">
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/zo48R_fZF6s">a01運動方程離散化_SHM</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/te3txhORMUg">a02運動方程離散化_彈性弦</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/JU08M-hNaXE">a03邊界條件自由端固定端吸收端</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/HhDRW2PD1nc">a04彈性弦上波動動畫實作</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/tVpVBoqwGxQ">a05彈性弦加上阻力</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/G3vkIfn0rsk">a06彈性弦加上外力模擬駐波</a></li>
+        <li class="panel-footer mySection"></li>
+        </ul>
+      </div>
+
+      <!-- 一個單元 ch19_彈性膜上的波動(2D) -->
+      <div class="panel panel-primary" id="u19">
+        <div class="panel-heading">單元十九 彈性膜上的波動</div>
+        <ul class="list-group">
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/gsExaYUyu9s">a01彈性膜上波動方程式</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/prPpZTPVNIs">a02動畫實作彈性膜上的波動</a></li>
+        <li class="panel-footer mySection"></li>
+        </ul>
+      </div>
+
+
+      <!-- 一個單元 teacher老師的半成品 -->
+      <div class="panel panel-danger" id="teacher">
+        <div class="panel-heading">關於老師的半成品<br>
+            <a href="files/MultifunctionSFP.zip">
+                [下載萬用半成品(2020.12.01)]
+            </a>
+        </div>
+        <ul class="list-group">
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/_xl08ZMe_so">把圖片轉換成dataURI</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/vWemwExHPm8">圖片物件</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/1upRi3OaP8M">簡單立體與物件容器</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/PDdS7QY9AdM">箭頭與彈簧</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/vTy-QQLai6g">線條與點</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/oRmE9Zg32qI">camera</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/1ai2pMtspWk">文字平面</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/fBjCUMUtowg">ThreeJS</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/DXk7a5w5pyY">動態改變顏色</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/a8QqfBCKYss">繞任意軸旋轉 RotateOnWorldAxis</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/ZPe0edckMfo">取得滑鼠位置(getMouse3D)</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/T97PLUrs_f4">粒子系統 Points</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/O_-np1VaMIQ">線條系統 Line</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/0eOyFRG55GE">曲線圖 ObjGraph</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/XKaeSSeQowY">增加互動按鈕(有AnimateCC)</a></li>
+          <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/XWHOy2dU4Hc">增加互動按鈕(無AnimateCC)</a></li>
+        <li class="panel-footer mySection"></li>
+        </ul>
+    </div>
+
+
+      <!-- 一個單元 classroom動畫小教室 -->
+      <div class="panel panel-success" id="classroom">
+          <div class="panel-heading">動畫小教室</div>
+          <ul class="list-group">
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/5pIaNdPcOkY">認識變數</a></li>
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/5ACKyQ3LGIA">養成縮排好習慣</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/vAo8MloeDyM">認識主控台</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/D5c73glfWZk">認識物件</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/guWuiTECTAk">傳值與傳址</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/4qfr0jUYftI">if判斷式</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/u1hJB497SRc">Math</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/0WhcNJHoiZc">常見錯誤_在tick裡面new東西</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/Rrxrp_Mk1P8">提高計算精度</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/B4TO3_nFXWo">PlayStopStep</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/U8LbBJ0AVcc">加入聲音</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/1PyOF1PMK2Q">使用計時器</a></li>
+			<!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/19TQH7X-y0s">動畫動起來_setInterval_setTimeOut_reuqestAnimationFrame</a></li>
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/PLor3qYBhHw">交作業</a>(修課學生適用)</li>
+            <!-- 一個影片 --><li class="mySection"><a href="https://youtu.be/XqEHTJ1Bk54">關於學習歷程檔案</a>(修課學生適用)</li>
+          <li class="panel-footer mySection"></li>
+          </ul>
+      </div>
+      		
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.js"></script>
+    
+    <!-- 摺疊動作 -->
+    <script src="js/panelCollapse.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+.panel-heading span {
+    margin-top: 5px;/*-20px;*/
+    font-size: 18px;
+}
+.row {
+    margin-top: 40px;
+    /*padding: 0 10px;*/
+}
+.clickable {
+    cursor: pointer;
+}
+
+/* ...... */
+body{
+	background-color: #DFFEFF;
+}
+.jumbotron {
+  color: #000;/* panel-info */
+  background-color: #d9edf7;/* panel-info */
+  font-size: 48px;
+  text-align: center;
+}
+.panel-heading{
+    font-size: 26px;
+}
+.mySection{
+	padding: 10px 15px 10px 60px;
+	font-size: 20px;	
+}
+.myContent{
+	padding: 10px 15px 10px 120px;
+	font-size: 20px;
+}
+.list-group-item i{
+	font-size: 12px;
+}
+
+/*a*/
+a:link{color:#337ab7;text-decoration:none}
+a:visited{color:#337ab7;text-decoration:none}
+a:hover{background-color:#FFFF99;color:#FF0000;text-decoration:none}
+a:active {color:#337ab7;text-decoration:none}
+
+/* panel-primary a 星星星星星星星星 */
+.panel-primary .panel-heading a{color:#FFF;text-decoration:none}
+.panel-primary .panel-heading a:hover{background-color:#FFFF99;color:#FF0000;text-decoration:none}
+
+/* 最上開頭大圖要置中 */
+.img-responsive
+{
+  display: inline;
+  margin: 0 auto;
+}

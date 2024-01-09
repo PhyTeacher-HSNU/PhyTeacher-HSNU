@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="zh-hant-TW" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=0" />
+    <meta name="viewport" content="user-scalable=no" />
+
+    <link rel="stylesheet" type="text/css" href="allData/css/myStyle.css" />
+    <title>162431做動畫學物理</title>
+  </head>
+
+  <style>
+    #mainAnimation > div {
+      z-index: 100;
+    }
+    button {
+      padding: 8px;
+      font-size: 20px;
+    }
+    #title {
+      font-size: 20px;
+      color: white;
+    }
+  </style>
+  <body>
+    <div id="mainAnimation">
+      <div style="position: relative">
+        <div id="title">162431賴境鎰 多體重力模擬</div>
+        <button onclick="loadPresetIndex(0)">簡易二體</button>
+        <button onclick="loadPresetIndex(1)">穩定三體</button>
+        <button onclick="loadPresetIndex(2)">混亂三體</button>
+        <button onclick="loadPresetIndex(3)">雙星+行星</button>
+        <button onclick="loadPresetIndex(4)">穩定四體</button>
+        <button onclick="loadPresetIndex(5)">木星系統1:2:4軌道週期</button>
+        <button onclick="loadPresetIndex(6)">8字型三體軌道</button>
+        <button style="float: right" onclick="playing=false;updateObjects()">步進</button>
+        <button style="float: right" onclick="playing=!playing">暫停/繼續</button>
+      </div>
+    </div>
+
+    <!--script external-->
+    <script src="allData/js/jquery/jquery-2.2.2.min.js"></script>
+    <script src="allData/js/createjs/tweenjs.min.js"></script>
+    <script src="allData/js/createjs/easeljs.min.js"></script>
+    <!--script animateCC-->
+    <script src="allData/js/animate/myAnimate.js"></script>
+    <!--script ThreeJS-->
+    <script src="allData/js/threejs/three.min.js"></script>
+    <script src="allData/js/threejs/three.lines.js"></script>
+    <!--script teacher-->
+    <script src="allData/pics/pics.js"></script>
+    <script src="allData/js/teacherJS/teacher.js"></script>
+    <!--script student-->
+    <script src="allData/js/myScript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="zh-hant-TW" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=0" />
+    <meta name="viewport" content="user-scalable=no" />
+
+    <link rel="stylesheet" type="text/css" href="allData/css/myStyle.css" />
+    <title>162431做動畫學物理</title>
+    <style>
+      #mainAnimation > div {
+        z-index: 100;
+		width: 50%;
+      }
+      button {
+        padding: 8px;
+        font-size: 20px;
+      }
+      .title {
+        font-size: 25px;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="mainAnimation">
+      <div style="position: relative">
+        <div class="title">162431賴境鎰 平面波模擬</div>
+        <div class="title">
+          本作品使用的波模擬公式來源<a target="_blank" href="https://gist.github.com/Ipingpong1/4b88af89d997975aa0253b482f5ef74d#file-waveequation-py"
+            >(連結1)</a
+          ><a target="_blank" href="https://github.com/nilsberglund-orleans/YouTube-simulations/blob/main/wave_billiard.c">(連結2)</a>
+        </div>
+        <div class="title">可使用方向鍵移動取樣箭頭，將位移繪製在後方圖形</div>
+        <button onclick="loadPreset(0)">單一波源</button>
+        <button onclick="loadPreset(1)">通過縫隙</button>
+        <button onclick="loadPreset(2)">兩波源干涉</button>
+        <button onclick="loadPreset(3)">單面反射</button>
+        <button onclick="loadPreset(4)">反射產生駐波</button>
+      </div>
+    </div>
+
+    <!--script external-->
+    <script src="allData/js/jquery/jquery-2.2.2.min.js"></script>
+    <script src="allData/js/createjs/tweenjs.min.js"></script>
+    <script src="allData/js/createjs/easeljs.min.js"></script>
+    <!--script animateCC-->
+    <script src="allData/js/animate/myAnimate.js"></script>
+    <!--script ThreeJS-->
+    <script src="allData/js/threejs/three.min.js"></script>
+    <script src="allData/js/threejs/three.lines.js"></script>
+    <!--script teacher-->
+    <script src="allData/pics/pics.js"></script>
+    <script src="allData/js/teacherJS/teacher.js"></script>
+    <!--script student-->
+    <!--numjs-->
+    <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
+    <script src="allData/js/myScript.js"></script>
+  </body>
+</html>
