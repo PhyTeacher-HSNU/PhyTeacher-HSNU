@@ -19,6 +19,7 @@
 	sectionHWF.generateOneItem({'folder':'hwF','name':'hwF163126' ,'author':'1613陳羿卲', 'col':'4'});
 	sectionHWF.generateOneItem({'folder':'hwF','name':'hwF163016' ,'author':'1630林鼎軒', 'col':'4'});
 	sectionHWF.generateOneItem({'folder':'hwF','name':'hwF163127' ,'author':'1631陳泰宇', 'col':'4'});
+	sectionHWF.generateOneItem({'folder':'hwF','name':'hwF162804' ,'author':'1628朱致丞', 'col':'4'});		
 
 			
 	//平時一 向右橫波 hwE
