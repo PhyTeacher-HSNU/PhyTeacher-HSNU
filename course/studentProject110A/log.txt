@@ -1,0 +1,8 @@
+http://startbootstrap.com/template-overviews/freelancer/
+
+
+<section class="success"> 綠底白字 -> 改成深藍底白字
+
+#portfolio 白底綠字，加上 #portfolio2 綠底白字。
+
+#portfolio與#portfolio2 改成 .portfolio與 .portfolio2
